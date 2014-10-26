@@ -1,7 +1,7 @@
 require 'spec_helper'
 describe 'puppet_rspec_hello_adv1' do
 
-  context 'with defaults for all parameters' do
+  context 'Test whether apache package and service are installed and running.' do
     it { should contain_class('puppet_rspec_hello_adv1') }
   end
 
