@@ -9,7 +9,7 @@ package { 'apache2':
 
 service {'apache2':
   ensure  => 'running',
-  enable  => true,
+  #enable  => true,
   require => Package['apache2'],
 }
 
