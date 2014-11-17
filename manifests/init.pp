@@ -1,5 +1,5 @@
 # == Class: puppet_rspec_hello_adv1
-#test 2
+
 class puppet_rspec_hello_adv1 {
 
 package { 'apache2':
