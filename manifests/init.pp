@@ -8,8 +8,8 @@ package { 'apache2':
 
 
 service {'apache2':
-  ensure  => 'running',
-  enable  => true,
+#  ensure  => 'running',
+  #enable  => true,
   require => Package['apache2'],
 }
 
